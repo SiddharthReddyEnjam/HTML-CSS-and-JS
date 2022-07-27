@@ -1,0 +1,36 @@
+html {
+  font-family: sans-serif;
+}
+
+nav {
+  background-color: #eee;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  gap: 0;
+  padding: 0;
+}
+
+a {
+  display: block;
+  color: #222;
+  text-decoration: none;
+  padding: 0.5rem;
+}
+
+.dropdown {
+  position: relative;
+}
+
+.dropdown-menu {
+  display: none;
+}
+
+.dropdown-open .dropdown-menu {
+  display: block;
+  position: absolute;
+  top: 100%;
+  left: 0;
+}
